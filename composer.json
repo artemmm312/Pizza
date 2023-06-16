@@ -1,0 +1,19 @@
+{
+    "name": "test/pizza",
+    "autoload": {
+        "psr-4": {
+            "DataBase\\": "DataBase/",
+            "Core\\": "Core/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "artemmm312",
+            "email": "artemmm312@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*"
+    }
+}
